@@ -18,7 +18,7 @@ function News1(){
         const article=document.createElement('article');
         article.innerHTML=`
         <div class="arsistimage"><img src="${data1[i].urlToImage}" alt="News Image" width="400px" height="140px"></div>
-        <div class="name">${data1[i].title}</div>
+        <div class="name"><a href="${data1[i].url}" target="_blank">${data1[i].title}</a></div>
         <div class="about"></div>
         ` ;
         main1.appendChild(article);
@@ -38,7 +38,7 @@ function News2(){
         const article2=document.createElement('article');
         article2.innerHTML=`
         <div class="arsistimage"><img src="${data2[j].urlToImage}" alt="News Image" width="400px" height="140px"></div>
-        <div class="name">${data2[j].title}</div>
+        <div class="name"><a href="${data2[j].url}" target="_blank">${data2[j].title}</a></div>
         <div class="about"></div> `;
         main2.appendChild(article2);
     }

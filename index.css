@@ -4,6 +4,7 @@
 }
 .navbar{
     display: flex;
+    overflow: hidden;
     background-color:rgba(100,230,211,235);
 }
 .logo{
@@ -62,7 +63,7 @@
 }
 .rightcontainer{
     width: 80%;
-    padding: 2px;
+    padding: 0px;
     height: fit-content;
 }
 .main_menu{
@@ -156,9 +157,9 @@ margin: 5px 0px 5px 0px;
     justify-content: space-between;
     align-items: center;
     height: 40px;
-    width: 97%;
+    width: 98%;
     background-color: rgb(34,43,52);
-    margin: 7px 0px 0px 0px;
+    margin: 7px 1px 0px 0px;
     border-radius: 3px;
     padding: 0px 10px 0px 10px;
 }
@@ -242,4 +243,8 @@ article img{
 .name{
     margin-top:5px ;
     letter-spacing: 1px;
+}
+.name a{
+    color: white;
+    text-decoration: none;
 }
