@@ -2,9 +2,6 @@
     margin: 0px;
     padding: 0px;
 }
-body{
-    padding-top: 56px;
-}
 .navbar{
     display: flex;
     position: fixed;
