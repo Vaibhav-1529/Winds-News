@@ -11,7 +11,7 @@
     /* position: fixed; */
     top: 0;
     z-index: 99;
-    width: 100vw;
+    width: 100%;
     overflow: hidden;
     background-color:rgba(100,230,211,235);
 }
@@ -34,7 +34,7 @@
 .typingarea1 input{
     border-radius: 10px;
     border: 1px solid black;
-    padding: 0px 4px 0px 4px;
+    padding: 3px 4px 3px 4px;
     text-align: center;
 }
 .button1{
@@ -43,7 +43,9 @@
 .button1 button{
     border-radius: 10px;
     border: 1px solid black;
-    padding: 0px 4px 0px 4px;
+    padding: 3px 4px 3px 4px;
+    background-color:  rgb(34,43,52) ;
+    color: rgba(100,230,211,235);
 }
 .navlist{
     display: flex;
@@ -53,12 +55,21 @@
 }
 .navlist li{
     list-style: none;
-    margin: 0px 20px 0px 20px;
+    margin: 0px 15px 0px 15px;
 }
 .navbar li a{
     text-decoration: none;
     color: black;
     font: 1em sans-serif;
+    padding:5px 10px;
+    border-radius: 20px;
+    transition: all .5s ease;
+}
+.navbar a:hover{
+    background-color: rgb(34,43,52);
+    transform: scale(1.2);
+    color: white;
+    z-index: 2;
 }
 .content_container{
     display: flex;
@@ -128,6 +139,7 @@ margin: 5px 0px 5px 0px;
     border-radius: 10px;
     padding: 2px 5px 2px 5px;
     margin: 5px 0px 5px 0px;
+    list-style: none;
 }
 .liked li:hover{
     background-color: rgba(100,230,211,235);
@@ -165,7 +177,7 @@ margin: 5px 0px 5px 0px;
     justify-content: space-between;
     align-items: center;
     height: 40px;
-    width: 98%;
+    width: 97%;
     background-color: rgb(34,43,52);
     margin: 7px 1px 0px 0px;
     border-radius: 3px;
