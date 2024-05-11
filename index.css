@@ -191,7 +191,7 @@ margin: 5px 0px 5px 0px;
     color: black;
     z-index: 2;
 }
-.artistlist{
+main{
     display: flex;
     justify-content: left;
     align-items: center;
@@ -203,10 +203,10 @@ margin: 5px 0px 5px 0px;
     scroll-behavior: smooth;
     margin-top: 10px;    
 }
-.artistlist::-webkit-scrollbar{
+main::-webkit-scrollbar{
     -webkit-appearance: none;
 }
-.artist{
+article{
     min-width: 124px;
     cursor: pointer;
     overflow: hidden;
@@ -216,7 +216,7 @@ margin: 5px 0px 5px 0px;
     color: white;
     transition: all .6s ease;
 }
-.artist:hover{
+article:hover{
     background-image: linear-gradient(180deg, rgb(14,15,22),rgb(65, 71, 74));
     transform: scale(1.05);
     z-index: 2;
@@ -226,7 +226,7 @@ margin: 5px 0px 5px 0px;
 .artistimage{
    justify-items: center;
 }
-.artist img{
+article img{
     border-radius: 50%;
     width: 90%;
     justify-content: center;
