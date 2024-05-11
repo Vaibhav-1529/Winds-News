@@ -207,10 +207,11 @@ main::-webkit-scrollbar{
     -webkit-appearance: none;
 }
 article{
-    min-width: 124px;
+    min-width: 200px;
+    min-height: 150px;
     cursor: pointer;
     overflow: hidden;
-    padding: 10px;
+    padding: 5px;
     margin:10px;
     border-radius: 10px;
     color: white;
@@ -227,10 +228,8 @@ article:hover{
    justify-items: center;
 }
 article img{
-    border-radius: 50%;
-    width: 90%;
-    justify-content: center;
-    align-items: center;
+    border-radius: 10%;
+    width: 100%;
 }
 .name{
     margin-top:5px ;
