@@ -8,9 +8,9 @@
 } */
 .navbar{
     display: flex;
-    /* position: fixed; */
+    position: fixed;
     top: 0;
-    z-index: 99;
+    z-index: 3;
     width: 100%;
     overflow: hidden;
     background-color:rgba(100,230,211,235);
