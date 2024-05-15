@@ -74,7 +74,7 @@
 
 main{
     display:block;
-    justify-content: ;
+    justify-content:left;
     border-radius: 5px;
     padding: 5px;
     width:99%;
