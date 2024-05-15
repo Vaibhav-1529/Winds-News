@@ -8,9 +8,9 @@
 } */
 .navbar{
     display: flex;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
-    z-index: 3;
+    /* z-index: 3; */
     width: 100%;
     overflow: hidden;
     background-color:rgba(100,230,211,235);
@@ -215,8 +215,15 @@ margin: 5px 0px 5px 0px;
 .heading{
     color:white;
     font-size: large;
+    display: flex;
+    align-items: center;
     font-weight: 200;
     margin: 20px 0px 10px 20px;
+}
+.heading a{
+    margin: 0px 10px 0px 10px;
+    color: white;
+    text-decoration: none;
 }
 main{
     display: flex;

@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* body{
+    padding-top: 56px;
+    top: 0;
+} */
+.navbar{
+    display: flex;
+    /* position: fixed; */
+    top: 0;
+    /* z-index: 3; */
+    width: 100%;
+    overflow: hidden;
+    background-color:rgba(100,230,211,235);
+}
+.logo{
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 5px 0px 5px 0px;
+}
+.search{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content:right;
+}
+.typingarea1{
+    margin: 0px 10px 0px 10px;
+}
+.typingarea1 input{
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 3px 4px 3px 4px;
+    text-align: center;
+}
+.button1{
+    margin: 0px 10px 0px 10px;
+}
+.button1 button{
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 3px 4px 3px 4px;
+    background-color:  rgb(34,43,52) ;
+    color: rgba(100,230,211,235);
+}
+.navlist{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 50%;
+}
+.navlist li{
+    list-style: none;
+    margin: 0px 15px 0px 15px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    font: 1em sans-serif;
+    padding:5px 10px;
+    border-radius: 20px;
+    transition: all .5s ease;
+}
+.navbar a:hover{
+    background-color: rgb(34,43,52);
+    transform: scale(1.2);
+    color: white;
+    z-index: 2;
+}
+
+main{
+    display:block;
+    justify-content: ;
+    border-radius: 5px;
+    padding: 5px;
+    width:99%;
+    height: auto;
+    margin-top: 10px;    
+}
+article{
+    min-width: 200px;
+    min-height: 150px;
+    padding: 10px;
+    margin:5px;
+    display: flex;
+    border-radius: 2px 2px 10px 2px;
+    box-shadow: 2px 0px 0px 0px black;
+    box-shadow: inset 0px 0px 1px 0px white;
+    color: white;
+    transition: all .6s ease;
+}
+/* article:hover{
+    background-image: linear-gradient(180deg, rgb(14,15,22),rgb(65, 71, 74));
+    transform: scale(1.05);
+    z-index: 2;
+    box-shadow: 2px 2px 2px 0px rgb(47, 42, 42);
+
+} */
+.artistimage{
+   justify-items: center;
+}
+article img{
+    border-radius: 10%;
+    width: 100%;
+}
