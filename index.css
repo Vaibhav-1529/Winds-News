@@ -237,6 +237,8 @@ main::-webkit-scrollbar{
 article{
     min-width: 200px;
     min-height: 150px;
+    max-width: 200px;
+    max-height: 150;
     cursor: pointer;
     overflow: hidden;
     padding: 10px;
@@ -254,9 +256,7 @@ article:hover{
     box-shadow: 2px 2px 2px 0px rgb(47, 42, 42);
 
 }
-.artistimage{
-   justify-items: center;
-}
+
 article img{
     border-radius: 10%;
     width: 100%;
