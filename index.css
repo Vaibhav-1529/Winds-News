@@ -2,15 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
-/* body{
-    padding-top: 56px;
-    top: 0;
-} */
 .navbar{
     display: flex;
-    /* position: fixed; */
     top: 0;
-    /* z-index: 3; */
     width: 100%;
     overflow: hidden;
     background-color:rgba(100,230,211,235);
