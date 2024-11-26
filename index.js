@@ -25,7 +25,17 @@ function News1(){
         article.innerHTML=`
         <div class="arsistimage"><img src="${data1[i].urlToImage}" alt="News Image" ></div>
         <div class="name"><a href="${data1[i].url}" target="_blank">${data1[i].title}</a></div>
-        <div class="about"></div>
+        <div data-modal-target="#modal" class="about"> <i class="fa-solid fa-up-right-and-down-left-from-center"></i></div>
+        <div class="modal" id="modal">
+            <div class="modal-header">
+            <div class="title">Example Modal</div>
+            <button data-close-button class="close-button">&times;</button>
+            </div>
+            <div class="modal-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod alias ut illo doloremque eum ipsum obcaecati distinctio debitis reiciendis quae quia soluta totam doloribus quos nesciunt necessitatibus, consectetur quisquam accusamus ex, dolorum, dicta vel? Nostrum voluptatem totam, molestiae rem at ad autem dolor ex aperiam. Amet assumenda eos architecto, dolor placeat deserunt voluptatibus tenetur sint officiis perferendis atque! Voluptatem maxime eius eum dolorem dolor exercitationem quis iusto totam! Repudiandae nobis nesciunt sequi iure! Eligendi, eius libero. Ex, repellat sapiente!
+            </div>
+        </div>
+        <div id="overlay"></div>
         ` ;
         main1.appendChild(article);
     }
@@ -89,7 +99,7 @@ function News4() {
     }
 }
 async function getData5() {
-    const res5 = await fetch("https://newsapi.org/v2/everything?q=tesla&from=2024-08-22&sortBy=publishedAt&apiKey=8ea85bfbe82349b9a73206ce27fde029");
+    const res5 = await fetch("https://newsapi.org/v2/everything?q=tesla&from=2024-08-24&sortBy=publishedAt&apiKey=8ea85bfbe82349b9a73206ce27fde029");
     const result5 = await res5.json();
     data5 = result5.articles;
     console.log("Fifth API data (Tesla)\n", result5);
